@@ -26,6 +26,31 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+//login-8 & singup-8 css
+.neu-input,
+.neu-button {
+  background: linear-gradient(145deg, #c9ced6, #eef3fb);
+}
+.neu-input:focus,
+.neu-button:hover {
+  background: linear-gradient(145deg, #d1d7e0, #f6fbff);
+}
+.neu-button {
+  transition: all 0.2s ease-in-out;
+}
+.neu-button:active {
+  box-shadow: inset 4px 4px 8px rgba(163, 177, 198, 0.5),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.5);
+}
+
+//login12 signup12 css
+.retro-shadow {
+  box-shadow: 5px 5px 0px #000000;
+}
+.pixelated {
+  image-rendering: pixelated;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

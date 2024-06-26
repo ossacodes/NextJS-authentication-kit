@@ -41,12 +41,12 @@ export default function Login6() {
                     </div>
                     <h2 className="text-2xl font-bold text-center mb-6">Dex BANK</h2>
                     <p className="text-center text-gray-600 mb-8">Let&apos;s Sign You In</p>
-                    <form className="space-y-6">
+                    <form className="space-y-6 lg:px-20 text-sm">
                         <div>
-                            <input type="email" placeholder="Email address" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"/>
+                            <input type="email" placeholder="Email address" className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:ring-2 focus:ring-black focus:border-transparent"/>
                         </div>
                         <div>
-                            <input type="password" placeholder="Password" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"/>
+                            <input type="password" placeholder="Password" className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:ring-2 focus:ring-black focus:border-transparent"/>
                         </div>
                         <div className="text-right">
                             <a href="#" className="text-sm text-gray-600 hover:underline">Forgot password?</a>

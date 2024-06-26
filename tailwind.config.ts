@@ -19,12 +19,20 @@ const config: Config = {
         "pastel-yellow": "#FFFAF0",
         "otake-primary": "#FF69B4",
         "otake-secondary": "#4B0082",
+
+        "neu-bg": "#e0e5ec",
+        "neu-shadow-dark": "rgba(163, 177, 198, 0.5)",
+        "neu-shadow-light": "rgba(255, 255, 255, 0.5)",
+        "neu-text": "#2d3748",
+        "neu-highlight": "#4299e1",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
       boxShadow: {
         "inner-glow": "inset 0 0 5px rgba(255, 105, 180, 0.5)",
+        // login-11 and signup-11 style
+        neo: "5px 5px 0px 0px rgba(0,0,0,1)",
       },
     },
   },
