@@ -26,7 +26,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-//login-8 & singup-8 css
+/* //login-8 & singup-8 css */
 .neu-input,
 .neu-button {
   background: linear-gradient(145deg, #c9ced6, #eef3fb);
@@ -43,12 +43,26 @@ body {
     inset -4px -4px 8px rgba(255, 255, 255, 0.5);
 }
 
-//login12 signup12 css
+/* //login12 signup12 css */
 .retro-shadow {
   box-shadow: 5px 5px 0px #000000;
 }
 .pixelated {
   image-rendering: pixelated;
+}
+
+/* // login-15 signup-15 css */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* // login-18 signup-18 css */
+.glassmorphism18 {
+  background: rgba(23, 25, 35, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @layer utilities {
