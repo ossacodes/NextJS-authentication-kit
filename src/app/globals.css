@@ -65,6 +65,31 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.landing-body {
+  font-family: "Inter", sans-serif;
+  background-color: #0f172a;
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(225, 39%, 25%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(189, 100%, 20%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355, 100%, 20%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340, 100%, 20%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22, 100%, 20%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242, 100%, 20%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343, 100%, 20%, 1) 0, transparent 50%);
+  background-attachment: fixed;
+}
+
+.landing-glass {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
