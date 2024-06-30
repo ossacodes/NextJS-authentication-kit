@@ -61,7 +61,7 @@ export default function  Login1() {
                             </div>
                         </div>
                         <h2 className="text-3xl font-semibold text-white mb-2 opacity-0 translate-y-[20px]">Welcome Back</h2>
-                        <p className="text-gray-300 text-sm opacity-0 translate-y-[20px]">Don&apos;t have an account yet? <Link href="auth/signup-1" className="text-blue-400 hover:text-blue-300 transition-colors">Sign up</Link></p>
+                        <p className="text-gray-300 text-sm opacity-0 translate-y-[20px]">Don&apos;t have an account yet? <Link href="signup-1" className="text-blue-400 hover:text-blue-300 transition-colors">Sign up</Link></p>
                     </div>
 
                     <form className="space-y-6 opacity-0 translate-y-[20px]">

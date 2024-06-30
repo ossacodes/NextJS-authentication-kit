@@ -20,7 +20,7 @@ export default function Login2() {
         <main className="font-poppins bg-gradient-to-br from-pastel-pink to-pastel-yellow min-h-screen flex items-center justify-center p-4">
             <div className="bg-white rounded-3xl shadow-2xl max-w-md w-full overflow-hidden">
                 <div className="bg-otake-primary text-white p-6 text-center">
-                    <h1 className="text-3xl font-bold mb-2">Welcome Otake!</h1>
+                    <h1 className="text-3xl font-bold mb-2">Welcome Ztake!</h1>
                     <p className="text-sm opacity-80">Enter your details to access your account</p>
                 </div>
                 <div className="p-8">

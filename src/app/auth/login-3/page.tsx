@@ -4,9 +4,9 @@ export default function Login3() {
         <main className="font-inter text-black bg-gradient-to-br from-[#FDE8F0] to-[#FFF8D6] min-h-screen flex items-center justify-center">
             <div className="bg-white bg-opacity-50 p-8 rounded-3xl shadow-lg max-w-md w-full">
                 <div className="bg-[#FFF8D6] text-black text-xs font-semibold py-1 px-3 rounded-full inline-block mb-4">
-                    Otake Login
+                    Ztake Login
                 </div>
-                <h1 className="text-3xl font-bold mb-6">Welcome Otake!</h1>
+                <h1 className="text-3xl font-bold mb-6">Welcome Ztake!</h1>
                 <form>
                     <div className="mb-4">
                         <label className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>

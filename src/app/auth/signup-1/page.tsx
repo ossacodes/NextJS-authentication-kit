@@ -2,6 +2,7 @@
 import React, { useRef } from 'react'
 import { useEffect } from 'react'
 import { gsap } from 'gsap'
+import Link from 'next/link'
 
 export default function Signup1() {
     const formRef = useRef(null)
@@ -60,7 +61,7 @@ export default function Signup1() {
                             </div>
                         </div>
                         <h2 className="text-3xl font-semibold text-white mb-2 opacity-0 translate-y-[20px]">Welcome Back</h2>
-                        <p className="text-gray-300 text-sm opacity-0 translate-y-[20px]">Already have an account?<a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">Login</a></p>
+                        <p className="text-gray-300 text-sm opacity-0 translate-y-[20px]">Already have an account?<Link href="login-1" className="text-blue-400 ml-1 hover:text-blue-300 transition-colors">Login</Link></p>
                     </div>
 
                     <form className="space-y-6 opacity-0 translate-y-[20px]">

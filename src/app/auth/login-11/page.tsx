@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Login11() {
     return (
-        <main className="bg-[#FFE14C] text-black min-h-screen flex items-center justify-center p-4 font-sans">
+        <main className="bg-[#FFE14C] text-black min-h-screen flex items-center justify-center p-8 font-sans">
             <div className="bg-white border-4 border-black rounded-none shadow-neo p-2 px-8 w-full max-w-md relative" style={{ transform: 'rotate(-1deg)' }}>
                 <div className="absolute -top-4 -left-4 bg-[#FF90E8] border-4 border-black py-2 px-4 font-bold transform rotate-6">
                     Login Now!
@@ -68,7 +68,7 @@ export default function Login11() {
                     </button>
                 </form>
 
-                <p className="mt-8 text-lg text-center font-bold">
+                <p className="my-4 mt-4 text-lg text-center font-bold">
                     Don&apos;t have an account? <Link href="signup-11" className="text-[#23A094] hover:underline">Create account</Link>
                 </p>
             </div>
