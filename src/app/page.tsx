@@ -28,9 +28,9 @@ export default function Home() {
             <p className="text-gray-400 text-sm mb-8">
               20+ authentication pages built with Next.js and Tailwind CSS.<br /> Boost your development speed and create beautiful, responsive auth experiences.
             </p>
-            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+            <Link href="https://ossacodes.gumroad.com/l/Authentication-UI-Pack-With-Tailwindcss" className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
               Get them now
-            </button>
+            </Link>
           </div>
 
           {/* <!-- Featured On Section --> */}
