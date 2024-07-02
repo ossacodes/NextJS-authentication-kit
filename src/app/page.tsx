@@ -4,7 +4,7 @@ import Login1 from "./auth/login-1/page";
 import Link from "next/link";
 
 export default function Home() {
-  const dataList = Array.from({ length: 20 }, (_, index) => ({
+  const dataList = Array.from({ length: 22 }, (_, index) => ({
     id: index + 1,
     title: `Auth ${index + 1}`,
     imagePath: `/auth/login-${index + 1}.png`,
